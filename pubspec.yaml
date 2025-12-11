@@ -21,7 +21,7 @@ dependencies:
   lwk:
     git:
       url: https://github.com/SatoshiPortal/lwk-dart
-      ref: frb-2.11.1
+      ref: 2e10deb2fbaa76e888bda7be6a2128ce2c05173d
   bip21_uri: ^2.1.3
   freezed_annotation: ^3.0.0
   bip32_keys: ^3.1.1
