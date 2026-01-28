@@ -18,7 +18,7 @@ dependencies:
   boltz:
     git:
       url: https://github.com/SatoshiPortal/boltz-dart
-      ref: 54c36bd50e4bedb23a78f4889626c1b30ad7135e
+      ref: a31bfbd
   lwk:
     git:
       url: https://github.com/SatoshiPortal/lwk-dart
