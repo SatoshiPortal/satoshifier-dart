@@ -17,7 +17,7 @@ dependencies:
   boltz:
     git:
       url: https://github.com/SatoshiPortal/boltz-dart
-      ref: 9c6b351cd077a645a77661414f5009c15048a0c3
+      ref: 5344da8a75b59e696856901ca5885bd6fe352269
   lwk:
     git:
       url: https://github.com/SatoshiPortal/lwk-dart
@@ -27,7 +27,6 @@ dependencies:
   bip32_keys: ^3.1.1
   bs58: ^1.0.2
   convert: ^3.1.2
-  
 
 dev_dependencies:
   flutter_test:
@@ -37,7 +36,6 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   build_runner: ^2.4.14
   freezed: ^3.0.6
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
