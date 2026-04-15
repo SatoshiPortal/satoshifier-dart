@@ -1,4 +1,4 @@
-import 'package:bdk_flutter/bdk_flutter.dart' as bdk;
+import 'package:bdk_dart/bdk.dart' as bdk;
 import 'package:lwk/lwk.dart' as lwk;
 import 'package:satoshifier/satoshifier.dart';
 
@@ -37,6 +37,7 @@ enum Network {
       case bdk.Network.bitcoin:
         return Network.bitcoinMainnet;
       case bdk.Network.testnet:
+      case bdk.Network.testnet4:
         return Network.bitcoinTestnet;
       case bdk.Network.signet:
         return Network.bitcoinSignet;
