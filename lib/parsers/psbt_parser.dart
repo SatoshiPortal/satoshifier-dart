@@ -1,4 +1,4 @@
-import 'package:bdk_flutter/bdk_flutter.dart' as bdk;
+import 'package:bdk_dart/bdk.dart' as bdk;
 import 'package:satoshifier/satoshifier.dart';
 
 class PsbtParser {
@@ -6,8 +6,8 @@ class PsbtParser {
     await LibSatoshifier.init();
 
     try {
-      final psbt = await bdk.PartiallySignedTransaction.fromString(psbtBase64);
-      return Satoshifier.psbt(psbt: psbt.toString());
+      final psbt = bdk.Psbt(psbtBase64: psbtBase64);
+      return Satoshifier.psbt(psbt: psbt.serialize());
     } catch (_) {
       rethrow;
     }

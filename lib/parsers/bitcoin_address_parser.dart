@@ -1,4 +1,4 @@
-import 'package:bdk_flutter/bdk_flutter.dart' as bdk;
+import 'package:bdk_dart/bdk.dart' as bdk;
 import 'package:satoshifier/satoshifier.dart';
 
 class BitcoinAddressParser {
@@ -7,7 +7,7 @@ class BitcoinAddressParser {
 
     for (var bdkNetwork in bdk.Network.values) {
       try {
-        await bdk.Address.fromString(s: data, network: bdkNetwork);
+        bdk.Address(address: data, network: bdkNetwork);
         final network = Network.fromBdkNetwork(bdkNetwork);
         return Satoshifier.bitcoinAddress(address: data, network: network);
       } catch (_) {}
