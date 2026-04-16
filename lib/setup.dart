@@ -1,6 +1,5 @@
-import 'package:boltz/boltz.dart' as boltz;
+import 'package:bull_sdk/bull_sdk.dart';
 import 'package:flutter/foundation.dart';
-import 'package:lwk/lwk.dart' as lwk;
 
 bool isSatoshifierInit = false;
 
@@ -9,7 +8,7 @@ class LibSatoshifier {
     if (isSatoshifierInit) return true;
 
     try {
-      await Future.wait([boltz.LibBoltz.init(), lwk.LibLwk.init()]);
+      await BullSdk.init();
       isSatoshifierInit = true;
       return true;
     } catch (e) {

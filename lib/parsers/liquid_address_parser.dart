@@ -1,4 +1,4 @@
-import 'package:lwk/lwk.dart' as lwk;
+import 'package:bull_sdk/bull_sdk.dart' as lwk;
 import 'package:satoshifier/satoshifier.dart';
 
 class LiquidAddressParser {
