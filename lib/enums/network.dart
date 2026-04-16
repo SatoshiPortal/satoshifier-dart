@@ -1,5 +1,5 @@
 import 'package:bdk_dart/bdk.dart' as bdk;
-import 'package:bull_sdk/bull_sdk.dart' as lwk;
+import 'package:bull_sdk/lwk.dart' as lwk;
 import 'package:satoshifier/satoshifier.dart';
 
 enum Network {
