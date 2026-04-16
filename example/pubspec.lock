@@ -62,11 +62,11 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "80d6f1a4b307717bc8eb1ad110d85f0a2ee5e5a4"
-      resolved-ref: "80d6f1a4b307717bc8eb1ad110d85f0a2ee5e5a4"
+      ref: "3bc3deb"
+      resolved-ref: "3bc3deb20b790d3a17d3a74fb086c654da0412ea"
       url: "https://github.com/SatoshiPortal/boltz-dart.git"
     source: git
-    version: "0.2.1"
+    version: "0.3.0"
   boolean_selector:
     dependency: transitive
     description:
@@ -517,11 +517,11 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "2e10deb2fbaa76e888bda7be6a2128ce2c05173d"
-      resolved-ref: "2e10deb2fbaa76e888bda7be6a2128ce2c05173d"
+      ref: "659e14a"
+      resolved-ref: "659e14a4baf40ed99b868a09c15adc2a59ee9592"
       url: "https://github.com/SatoshiPortal/lwk-dart"
     source: git
-    version: "0.2.2"
+    version: "0.3.0"
   matcher:
     dependency: transitive
     description:
