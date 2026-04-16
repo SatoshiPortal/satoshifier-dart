@@ -594,7 +594,7 @@ packages:
   rust_lib_bull_sdk:
     dependency: transitive
     description:
-      path: "../../bull-sdk/packages/bull_sdk/rust_builder"
+      path: "../../bull_sdk/rust_builder"
       relative: true
     source: path
     version: "0.0.1"
