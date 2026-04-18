@@ -13,7 +13,7 @@ dependencies:
   bdk_dart:
     git:
       url: https://github.com/ethicnology/bdk-dart
-      ref: ebf4a6675ede8f7337ab18121157717dc9dc9751
+      ref: fix/reproducible-build
   bull_sdk:
     git:
       url: https://github.com/ethicnology/bull_sdk
