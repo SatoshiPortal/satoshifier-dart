@@ -15,7 +15,10 @@ dependencies:
       url: https://github.com/ethicnology/bdk-dart
       ref: ebf4a6675ede8f7337ab18121157717dc9dc9751
   bull_sdk:
-    path: ../bull_sdk
+    git:
+      url: https://github.com/ethicnology/bull_sdk
+      ref: 6e85d809f6e75ec9420721dc44139d9d8714617e
+      path: packages/bull_sdk
   bip21_uri: ^2.1.3
   freezed_annotation: ^3.0.0
   bip32_keys: ^3.1.1
