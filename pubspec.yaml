@@ -16,7 +16,7 @@ dependencies:
       ref: fix/reproducible-build
   bull_sdk:
     git:
-      url: https://github.com/ethicnology/bull_sdk
+      url: https://github.com/SatoshiPortal/bull_sdk
       ref: main
       path: packages/bull_sdk
   bip21_uri: ^2.1.3

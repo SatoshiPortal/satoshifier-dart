@@ -93,9 +93,11 @@ packages:
   bull_sdk:
     dependency: transitive
     description:
-      path: "/Users/azad/Repos/bull-sdk/packages/bull_sdk"
-      relative: false
-    source: path
+      path: "packages/bull_sdk"
+      ref: "6e85d809f6e75ec9420721dc44139d9d8714617e"
+      resolved-ref: "6e85d809f6e75ec9420721dc44139d9d8714617e"
+      url: "https://github.com/SatoshiPortal/bull_sdk"
+    source: git
     version: "1.0.0+1"
   camera:
     dependency: transitive
@@ -287,10 +289,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_rust_bridge
-      sha256: "37ef40bc6f863652e865f0b2563ea07f0d3c58d8efad803cc01933a4b2ee067e"
+      sha256: e87d6b9ee934dcd24a128ccb2bd91905d2d5fe5c06245d6a8f5477d4907a437a
       url: "https://pub.dev"
     source: hosted
-    version: "2.11.1"
+    version: "2.12.0"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -594,9 +596,11 @@ packages:
   rust_lib_bull_sdk:
     dependency: transitive
     description:
-      path: "../../bull_sdk/rust_builder"
-      relative: true
-    source: path
+      path: "packages/bull_sdk/rust_builder"
+      ref: "6e85d809f6e75ec9420721dc44139d9d8714617e"
+      resolved-ref: "6e85d809f6e75ec9420721dc44139d9d8714617e"
+      url: "https://github.com/SatoshiPortal/bull_sdk"
+    source: git
     version: "0.0.1"
   satoshifier:
     dependency: "direct main"
