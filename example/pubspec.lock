@@ -62,8 +62,8 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: "42c03082d5d97764fbfedc43a72125963f54dba6"
-      resolved-ref: "42c03082d5d97764fbfedc43a72125963f54dba6"
+      ref: "53db912bf9a042cfddc3e1b0c99576a7455ddf4d"
+      resolved-ref: "53db912bf9a042cfddc3e1b0c99576a7455ddf4d"
       url: "https://github.com/SatoshiPortal/boltz-dart.git"
     source: git
     version: "0.2.1"
