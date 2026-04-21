@@ -10,10 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  bdk_flutter:
+  bdk_dart:
     git:
-      url: https://github.com/SatoshiPortal/bdk-flutter
-      ref: 3024b3452b4b0e5982d737f82ff461024a881ae7
+      url: https://github.com/ethicnology/bdk-dart
+      ref: 76695446cd57f94802327f6ab50392f651c49b63
   boltz:
     git:
       url: https://github.com/SatoshiPortal/boltz-dart.git
