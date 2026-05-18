@@ -12,8 +12,8 @@ dependencies:
     sdk: flutter
   bdk_dart:
     git:
-      url: https://github.com/ethicnology/bdk-dart
-      ref: fix/reproducible-build
+      url: https://github.com/i5hi/bdk-dart
+      ref: 6ddecbb360fb894068bdfd79ab0c10abf49b9fca
   bull_sdk:
     git:
       url: https://github.com/SatoshiPortal/bull_sdk
