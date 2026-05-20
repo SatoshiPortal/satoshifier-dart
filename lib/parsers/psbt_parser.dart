@@ -3,8 +3,6 @@ import 'package:satoshifier/satoshifier.dart';
 
 class PsbtParser {
   static Future<Satoshifier> parse(String psbtBase64) async {
-    await LibSatoshifier.init();
-
     try {
       final psbt = bdk.Psbt(psbtBase64: psbtBase64);
       return Satoshifier.psbt(psbt: psbt.serialize());

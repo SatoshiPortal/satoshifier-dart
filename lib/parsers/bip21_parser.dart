@@ -3,8 +3,6 @@ import 'package:satoshifier/satoshifier.dart';
 
 class Bip21Parser {
   static Future<Satoshifier> parse(String data) async {
-    await LibSatoshifier.init();
-
     final uri = bip21.decode(data);
 
     Network network;

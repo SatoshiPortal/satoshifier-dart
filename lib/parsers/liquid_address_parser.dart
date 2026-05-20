@@ -3,8 +3,6 @@ import 'package:satoshifier/satoshifier.dart';
 
 class LiquidAddressParser {
   static Future<Satoshifier> parse(String data) async {
-    await LibSatoshifier.init();
-
     try {
       final input =
           Utils.isUppercaseAlphanumeric(data) ? data.toLowerCase() : data;

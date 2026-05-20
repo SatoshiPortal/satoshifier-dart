@@ -3,8 +3,6 @@ import 'package:satoshifier/satoshifier.dart';
 
 class LnurlParser {
   static Future<Satoshifier> parse(String input) async {
-    await LibSatoshifier.init();
-
     try {
       final isEmail = input.contains('@');
       final isPrefixed = input.toLowerCase().startsWith('lnurl');

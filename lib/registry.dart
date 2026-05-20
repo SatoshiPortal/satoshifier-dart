@@ -19,8 +19,8 @@ class Registry {
   static Future<Satoshifier> parse(String data) async {
     if (data.trim().isEmpty) throw 'Input is empty';
 
-    await LibSatoshifier.init();
-
+    // bull_sdk init is the host app's responsibility (see README); calling
+    // BullSdk.init() here would re-init flutter_rust_bridge and throw.
     final trimmed = data.trim();
 
     for (final (_, parser) in _parsers) {
