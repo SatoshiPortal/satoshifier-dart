@@ -4,8 +4,8 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: ^3.7.2
-  flutter: ">=1.17.0"
+  sdk: "3.12.1"
+  flutter: "3.44.1"
 
 dependencies:
   flutter:
@@ -30,7 +30,7 @@ dev_dependencies:
     sdk: flutter
   integration_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
   build_runner: ^2.4.14
   freezed: ^3.0.6
 
