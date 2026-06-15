@@ -1,7 +1,6 @@
 library;
 
 // exports
-export 'setup.dart' show LibSatoshifier;
 export 'enums/network.dart' show Network;
 export 'enums/xpub_type.dart' show XpubType;
 export 'enums/coin_type.dart' show CoinType;

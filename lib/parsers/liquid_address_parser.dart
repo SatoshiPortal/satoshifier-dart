@@ -1,10 +1,8 @@
-import 'package:lwk/lwk.dart' as lwk;
+import 'package:bull_sdk/lwk.dart' as lwk;
 import 'package:satoshifier/satoshifier.dart';
 
 class LiquidAddressParser {
   static Future<Satoshifier> parse(String data) async {
-    await LibSatoshifier.init();
-
     try {
       final input =
           Utils.isUppercaseAlphanumeric(data) ? data.toLowerCase() : data;
